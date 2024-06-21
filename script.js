@@ -1,13 +1,14 @@
-
-//your JS code here. If required.
+// Define the student object
 let student = {
-	name: "Jayant Baghel";
-}
+    name: "Jayant Baghel"
+};
 
+// Add getKeys method to Object prototype
 Object.prototype.getKeys = function() {
-	return Object.keys(this);
-}
+    return Object.keys(this);
+};
 
+// Function to show keys of the student object
 function showKeys() {
-	 console.log(student.getKeys);
+    console.log(student.getKeys());
 }
